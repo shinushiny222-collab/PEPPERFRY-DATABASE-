@@ -1,0 +1,67 @@
+CREATE TABLE Category (
+  2      Category_ID NUMBER PRIMARY KEY,
+  3      Category_Name VARCHAR2(50) UNIQUE,
+  4      Description VARCHAR2(100)
+  5  );
+
+Table created.
+
+SQL> INSERT INTO Category VALUES
+  2  (1, 'Sofa', 'Sofas and couches');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO Category VALUES
+  2  (2, 'Bed', 'Bedroom furniture');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO Category VALUES
+  2  (3, 'Chair', 'Home and office chairs');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO Category VALUES
+  2  (4, 'Table', 'Dining and study tables');
+
+1 row created.
+
+SQL> 
+SQL> INSERT INTO Category VALUES
+  2  (5, 'Storage', 'Storage furniture');
+
+1 row created.
+
+SQL> SELECT * FROM Category;
+
+CATEGORY_ID CATEGORY_NAME
+----------- --------------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+          1 Sofa
+Sofas and couches
+
+          2 Bed
+Bedroom furniture
+
+          3 Chair
+Home and office chairs
+
+
+CATEGORY_ID CATEGORY_NAME
+----------- --------------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+          4 Table
+Dining and study tables
+
+          5 Storage
+Storage furniture
+
+
+SQL> COMMIT;
+
+Commit complete.
