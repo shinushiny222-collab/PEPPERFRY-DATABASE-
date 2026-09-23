@@ -1,6 +1,6 @@
-# 🛋️ Pepperfry Furniture E-Commerce Database Management System
+#  Pepperfry Furniture E-Commerce Database Management System
 
-## 📌 Project Overview
+## Project Overview
 
 The Pepperfry Furniture E-Commerce Database Management System is a database project developed to manage the operations of an online furniture store. The system stores and organizes customer information, product details, categories, orders, payments, deliveries, and inventory using a relational database.
 
@@ -8,7 +8,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Design an efficient relational database.
 - Manage customer and product information.
@@ -19,7 +19,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Oracle SQL
 - SQL Developer
@@ -27,7 +27,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 🗂️ Database Tables
+##  Database Tables
 
 - Customer
 - Admin
@@ -47,7 +47,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 🔗 Database Relationships
+##  Database Relationships
 
 - Customer → Orders
 - Orders → Order_Details
@@ -60,7 +60,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## ✨ Features
+##  Features
 
 - Customer Registration
 - Product Management
@@ -74,7 +74,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 📚 SQL Operations
+##  SQL Operations
 
 - CREATE TABLE
 - INSERT
@@ -89,7 +89,7 @@ This project demonstrates the use of SQL concepts such as table creation, primar
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - User Authentication
 - Wishlist
